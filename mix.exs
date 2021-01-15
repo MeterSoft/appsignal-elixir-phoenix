@@ -43,7 +43,7 @@ defmodule Appsignal.Phoenix.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:appsignal_plug, "~> 2.0.4"},
+      {:appsignal_plug, git: "https://github.com/MeterSoft/appsignal-elixir-plug.git"},
       {:phoenix, "~> 1.4"},
       {:phoenix_html, "~> 2.11", optional: true},
       {:phoenix_live_view, "~> 0.9", optional: true},
